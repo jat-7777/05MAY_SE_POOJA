@@ -1,0 +1,13 @@
+//to find the length of the string
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int len;
+    char pooja[50];
+    printf("enter the word: ");
+    scanf("%s", &pooja);
+    len = strlen(pooja);
+    printf("length of the string is: %d", len)
+    return 0;
+}
